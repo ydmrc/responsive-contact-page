@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+  	<meta charset="utf-8">
+  	<meta name="description" content="Your description goes here">
+  	<meta name="keywords" content="one, two, three">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		
+		<title>Contact Us</title>
+
+		<!-- external CSS link -->
+		<link rel="stylesheet" href="css/normalize.css">
+		<link rel="stylesheet" href="css/style.css">
+
+		<link
+		rel="stylesheet"
+		href="https://fonts.googleapis.com/css2?family=Inter:wght@200;400&display=swap"
+	  />
+	  <link
+		rel="stylesheet"
+		href="https://fonts.googleapis.com/css2?family=Pacifico:wght@400&display=swap"
+	  />
+	  <link
+		rel="stylesheet"
+		href="https://fonts.googleapis.com/css2?family=Gentium Basic:wght@400&display=swap"
+	  />
+	  <link
+		rel="stylesheet"
+		href="https://fonts.googleapis.com/css2?family=Gentium Book Basic:wght@400&display=swap"
+	  />
+	  <link
+		rel="stylesheet"
+		href="https://fonts.googleapis.com/css2?family=Imprima:wght@400&display=swap"
+	  />
+	</head>
+	<body>
+		<nav class="nav-bar">
+			<div class="logo"><a href="#home"><img src="img/logo.png" alt="logo" height="50.39x"></a></div>
+			<a href="#" class="toggle-button" >
+				<span class="bar"></span>
+				<span class="bar"></span>
+				<span class="bar"></span>
+			</a>
+			<div class="navbar-links">
+				<ul>
+					<li><a href="#ourstory">OUR STORY</a></li>
+					<li><a href="#menu">MENU</a></li>
+					<li><a href="#location-and-hours">LOCATION & HOURS</a></li>
+					<li><a href="#contact">CONTACT</a></li>
+					<li><a href="#reviews">REVIEWS</a></li>
+				</ul>
+			</div>
+			<img class="frame" src="img/frame-62.svg" alt="frame">
+		</nav>
+
+		<!-- section-form  -->
+		<section class="need-help">
+			<div class="container">
+					<div class="title">Need Help?</div>
+					<span class="span-t">Hi! We will be happy to answer all your questions...</span>
+					<form action="#">
+						<div class="user-details">
+							<div class="input-box">
+								<span class="details">What’s your name? *</span>
+								<input type="text" required>
+							</div>
+							<div class="input-box">
+								<span class="details">What’s your email? *</span>
+								<input type="email" required>
+							</div>
+							<div class="input-box">
+								<span class="details">How can we help you? *</span>
+								<input list="what-reason" id="reason" placeholder="Choose one" required>
+								<datalist id="what-reason">
+									<option value="Delayed Delivery">
+									<option value="Issue with recent order">
+									<option value="Questions about an upcoming order">
+									<option value="General question">
+									<option value="Feedback">
+								</datalist>
+							</div>
+							<div class="input-box">
+								<span class="details">Purchase Number</span>
+								<input type="number" >
+							</div>
+							<div class="input-box-2">
+								<span class="details">Provide a short summary of your question *</span>
+								<input type="text" required>
+							</div>
+						</div>
+						<div class="button">
+						<input type="submit" value="SEND">
+						</div>
+					</form>
+			</div>
+		</section>
+		<footer>
+			<div class="foo-bar">
+				<div class="address">
+					<h4>1 Main St. <br>
+						New York City, NY <br>
+						01685 <br>
+						212-355-555</h4>
+				</div>
+				<div class="social-media">
+					<ul>
+						<li><a href="#facebook"><img src="img/fb.png" alt="facebook" height="51px"></a></li>
+						<li><a href="#twitter"><img src="img/tw.png" alt="twitter" height="51px"></a></li>
+						<li><a href="#"><img src="img/x.png" alt="" height="51px"></a></li>
+						<li><a href="#instagram"><img src="img/ig.png" alt="instagram" height="51px"></a></li>
+					</ul>
+					<span class="copyright">&copy;2022 Zee's Bakery by 100Devs Catch-Up-Crew</span>
+				</div>
+				<div class="cake"><img src="img/cake.png" alt="cake" height="105px"></div> 
+				
+				</div>
+		</footer>
+		<script type="text/javascript" src="js/main.js"></script>
+	</body>
+</html>
